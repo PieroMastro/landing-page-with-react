@@ -16,11 +16,11 @@ const Home = () => {
 			<div className="mx-3 mb-3">
 				<Jumbotron />
 			</div>
-			<div className=" row row-cols-1 card-group gap-3 mx-3 mb-3">
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+			<div className="row-col-12 card-group gap-3 mx-3 mb-3">
+				<Card className="col-3" />
+				<Card className="col-3" />
+				<Card className="col-3" />
+				<Card className="col-3" />
 			</div>
 			<Footer />
 		</React.Fragment>
